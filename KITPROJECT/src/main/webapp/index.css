@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reg {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Add this to your existing CSS file */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container button {
+    width: 48%; /* Adjust width as needed */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#res {
+    background-color: #f44336;
+}
+
+#res:hover {
+    background-color: #d32f2f;
+}
+
+#btnl {
+    background-color: #008CBA;
+}
+
+#btnl:hover {
+    background-color: #005f6b;
+}
+
+#error-msg {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}

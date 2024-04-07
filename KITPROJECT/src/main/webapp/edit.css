@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 30%; /* Increased container width for better visibility */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 80%; /* Full width input fields */
+    padding: 10px; /* Increased padding for better spacing */
+    margin-bottom: 15px; /* Increased margin for better separation */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px; /* Increased padding for better button size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%; /* Full width button */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+
+<link rel="stylesheet" type="text/css" href="index.css"> 
+<title>Insert</title> 
+</head>
+<body>
+<div class="main">
+<div class="reg">
+ <img src="kit.png" alt="Company Logo" id="company-logo"> 
+<h1>Add New Employee</h1>
+<form action="SaveServlet" method="post" id="in">
+<label>ID:</label>
+<br>
+<input type="text" name="id" id="na1" placeholder="Enter your id"><br> <br>
+<label>NAME :</label>
+<br>
+<input type="text" name="name" id="na1" placeholder="Enter your name"><br> <br>
+
+
+<label>EMAIL :</label>
+<br>
+<input type="email" name="email" id="na3" placeholder="Enter your Email"> <br> <br>
+<label>Salary:</label>
+<br>
+<input type="text" name="salary" id="na3" placeholder="Enter your salary"> <br> <br>
+<label>Department:</label>
+<br>
+<input type="text" name="department" id="na3" placeholder="Enter your dept"> <br> <br>
+
+
+<div class="button-container">
+    <button type="submit" value="Save Employee" id="sub" >SUBMIT</button>
+    <button type="reset" id="res">RESET</button>
+</div>
+
+
+<a href="ViewServlet"><button type="button" id="btnl">VIEW EMPLOYEE TABLE  </button></a>
+
+</form>
+</div>
+
+
+</body>
+</html>

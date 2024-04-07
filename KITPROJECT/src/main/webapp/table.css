@@ -1,0 +1,86 @@
+@charset "UTF-8";
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+   
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#add
+{
+	  background-color: rgb(64, 0, 64);
+	  
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#bt1 {
+    background-color: #008CBA;
+}
+
+#bt1:hover {
+    background-color: #0073e6;
+}
+
+#bt2 {
+    background-color: #FF5733; /* Red color */
+}
+
+#bt2:hover {
+    background-color: #e63900; /* Darker red color on hover */
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#logoutBtn {
+   background-color: #e63900;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
